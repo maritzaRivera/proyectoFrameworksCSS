@@ -1,0 +1,34 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+/*Estilos cabecera*/
+.cabecera{
+	background:white;
+	margin: auto;	
+	margin-bottom:0px;
+}
+.logo{
+	height:9%;	
+	background:#FAAC58;
+}
+.menu{
+	height:1rem;
+	background:#D8D8D8;
+}
+
+div{
+	border: 1px solid transparent;
+	flex: 1 0 50%; 
+}
+/*Estilos cuerpo*/
+.contenido{
+	background:#A9D0F5;	
+}
+.menu-item{
+	background:#FAAC58;
+}
+.blog{
+	margin:0px;
+}
+/*Estilos pie*/

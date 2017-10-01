@@ -11,9 +11,109 @@
 		<script src='js/bootstrap.min.js'></script>
 	</head>
 	<body>
-		<header>			
+		<header>
+			<div class="container cabecera">
+				<div class="row logo"> 
+					<div class="col-lg-2 col-md-2 float-left">
+						<img src="img/logo.jpg" alt="Logo" class="img-thumbnail"/>
+					</div>
+					<div class="col-lg-6 col-md-6 col-lg-offset-4 col-md-offset-4 redessociales fixed-bottom align-bottom clearfix">
+						<img src="img/facebook.png" alt="Facebook" class="img-rounded"/>
+						<img src="img/instagram.png" alt="Instagram" class="img-rounded"/>
+						<img src="img/twitter.png" alt="Twitter" class="img-rounded"/>
+						<img src="img/linkedin.png" alt="Linkedin" class="img-rounded"/>							
+					</div>
+				</div>
+				<div class="row menu">
+					<div class="col-lg-12 col-md-12 hidden-sm hidden-xs text-center clearfix">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+								 <div class="nav navbar-nav">
+									<a class="navbar-brand menu-item" href="#">Inicio</a>
+									<a class="navbar-brand menu-item" href="#">Artistas</a>
+									<a class="navbar-brand menu-item" href="#">Grupos</a>
+									<a class="navbar-brand menu-item" href="#">Top 10</a>
+									<a class="navbar-brand menu-item" href="#">Letras</a>
+									<a class="navbar-brand menu-item" href="#">Acordes</a>
+								 </div> 
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</header>
-		<section class="container">			
+		<section>
+			<div class="container">
+				<div class="row clearfix">
+					<!-- Contenido-->
+					<form role="form">
+						<div class="col-lg-8 col-md-8 text-center blog contenido">
+							<!-- Post 1-->
+							<div class="row">
+								<div class="col-lg-8 col-md-8 col-sm-8">
+									<h1>Marco Antonio Solís</h1>
+									<p class="text-justify">
+										Envuelto en una producción con luces y pantallas móviles, y acompañado por una decena de músicos, coristas y bailarinas, “El Buki” dio un espectáculo completo haciendo un recorrido por sus éxitos con canciones como “Se va muriendo mi alma”, “Morenita”, “Más que tu amigo” y “La venia bendita”; por supuesto, también se escucharon canciones de su etapa en Los Bukis como “Tu cárcel” y “A donde vayas” entre otras, ante un público completamente entregado a todos los géneros de su música.
+									</p>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<img src="img/mas.jpg" alt="Logo" class="img-thumbnail img-fluid"/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-lg-12 col-md-12 col-sm-12 text-left">
+									<label for="comentarioPost1">Comenta:</label>
+									<textarea class="form-control" id="comentarioPost1" rows="2" placeholder="Comentario"></textarea>
+								</div>
+							</div>
+							<!-- Post 2-->
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<img src="img/ag.jpg" alt="Logo" class="img-thumbnail img-fluid "/>
+								</div>
+								<div class="col-lg-8 col-md-8 col-sm-8">
+									<h1>Alejandra Guzmán</h1>
+									<p class="text-justify">
+										El 5 de mayo de 2017 sale a la venta el primer sencillo de Versus Tour "Cuando Un Hombre Te Enamora" que es una canción electropop que será parte del disco y del setlist del tour. El mismo cuenta con un video producido por Alejandro Pérez que cuenta con la participación del actor Rafael Amaya.
+									</p>
+									<p class="text-justify">
+										Para el 25 de mayo de 2017 se da a conocer a través de las plataformas digitales el segundo sencillo "Más Buena" que cuenta con un video dado a conocer el 02 de junio del presente año, el mismo fue producido por Pablo Croce.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-lg-12 col-md-12 col-sm-12 text-left">
+									<label for="comentarioPost2">Comenta:</label>
+									<textarea class="form-control" id="comentarioPost2" rows="2" placeholder="Comentario"></textarea>
+								</div>
+							</div>
+						</div>
+						<!-- Buscador-->
+						<div class="col-lg-4 col-md-4 blog contenido">
+							<div class="row">
+								<div class="input-group col-lg-12 col-md-12">
+								  <span class="input-group-addon" id="busqueda">
+									<img src="img/busqueda.png" alt="Búsqueda"/>
+								  </span>
+								  <input type="text" class="form-control" id="busqueda1" placeholder="Búsqueda" aria-label="Búsqueda" aria-describedby="busqueda">
+								  <label for="busqueda1">Buscar</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
+									<div class="list-group">
+										<a href="#" class="list-group-item">Temas recientes</a>
+										<a href="#" class="list-group-item list-group-item-action">Noticias</a>
+										<a href="#" class="list-group-item list-group-item-action">Lo más visto</a>
+										<a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
+										<a href="#" class="list-group-item list-group-item-action">Canciones populares</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
 		</section>
 		<footer>
 		</footer>
