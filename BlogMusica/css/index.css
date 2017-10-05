@@ -2,33 +2,53 @@ body{
 	width: 100%;
 	height: 100%;
 }
+section{
+	margin-top:0px;
+}
 /*Estilos cabecera*/
 .cabecera{
 	background:white;
 	margin: auto;	
 	margin-bottom:0px;
 }
-.logo{
-	height:9%;	
+.fondo_cab{	
 	background:#FAAC58;
+	vertical-align: bottom;
+}
+.logo{
+	height:100px;
+	width: 120px;
+}
+.redessociales{
+	margin-top: 50px;	
 }
 .menu{
-	height:1rem;
 	background:#D8D8D8;
+	padding:0px;
+	height:55px;
+	margin-bottom:0px;
 }
-
 div{
 	border: 1px solid transparent;
-	flex: 1 0 50%; 
 }
 /*Estilos cuerpo*/
 .contenido{
 	background:#A9D0F5;	
+	padding:0px;
+	margin-top:0px;
 }
-.menu-item{
-	background:#FAAC58;
+.busqueda{	
+	background:#D8D8D8;
 }
-.blog{
-	margin:0px;
+.separacion{
+	padding:10px;
 }
-/*Estilos pie*/
+
+@media (max-width:800px){	
+	.menu{
+		display: none;
+	}
+	.redessociales{
+		margin-top: 0px;	
+	}
+}
